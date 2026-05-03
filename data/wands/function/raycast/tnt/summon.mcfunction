@@ -1,0 +1,1 @@
+$summon tnt ^ ^ ^-0.1 {fuse:10s,explosion_power:5f,owner:$(UUID)}

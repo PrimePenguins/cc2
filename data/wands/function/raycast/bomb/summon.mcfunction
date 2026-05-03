@@ -1,0 +1,1 @@
+$summon tnt ^ ^ ^-0.1 {fuse:15s,explosion_power:15f,block_state:{Name:"test_block",Properties:{mode:"fail"}},owner:$(UUID)}
