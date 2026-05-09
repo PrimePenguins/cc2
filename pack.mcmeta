@@ -1,6 +1,7 @@
 {
-    "pack": {
-        "description": "Conjure Clash 2",
-        "pack_format": 81
-    }
+  "pack": {
+    "description": "",
+    "min_format": 0,
+    "max_format": 300
+  }
 }

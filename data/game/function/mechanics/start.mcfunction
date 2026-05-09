@@ -4,12 +4,14 @@ execute if score $blue main matches 0 if score $red main matches 1 run return ru
 
 
 clear @a
-fill 39 42 199 -37 90 275 air replace
+/fill -36 100 274 38 35 200 air replace
 
 fill -17 43 200 -11 46 274 stone
 fill -3 43 274 5 86 200 cobblestone
 fill 13 43 200 19 46 274 stone
 
+execute as @a run attribute @s attack_knockback base set 3
+gamerule pvp 
 function wands:give/main
 scoreboard players set $inRound main 1
 tp @a[team=blue] 16 47 237
