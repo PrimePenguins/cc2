@@ -1,1 +1,1 @@
-fill ~-10 ~-1 ~-10 ~10 ~ ~10 air
+fill ~-10 ~-1 ~-10 ~10 ~ ~10 air replace #game:all
