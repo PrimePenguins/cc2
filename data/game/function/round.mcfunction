@@ -18,11 +18,11 @@ execute as @a[scores={right.click=1..}] run function wands:main
 execute as @a if score @s death matches 1 run function game:mechanics/death
 # Mana cooldown
 scoreboard players remove $mana.cooldown mana 1
-execute if score $mana.cooldown mana matches ..0 run function game:mechanics/mana
+execute if score $mana.cooldown mana matches ..0 run function game:mechanics/mana/add
 # Action bar for mana
-execute as @a run function game:mechanics/action_bar
+execute as @a run function game:mechanics/mana/action_bar
 # Setup death & build limits
 execute as @a at @s if predicate game:build_limit run function game:mechanics/build_limit
 execute as @a[gamemode=!spectator] at @s if predicate game:death run kill @s
 
-execute as @e[type=item] run data merge entity @s {PickupDelay:0s}
+execute as @e[type=item] if items entity @s weapon.* carrot_on_a_stick run data merge entity @s {PickupDelay:0s}
