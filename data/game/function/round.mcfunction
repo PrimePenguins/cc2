@@ -25,4 +25,6 @@ execute as @a run function game:mechanics/mana/action_bar
 execute as @a at @s if predicate game:build_limit run function game:mechanics/build_limit
 execute as @a[gamemode=!spectator] at @s if predicate game:death run kill @s
 
+execute as @e[type=item] at @s if block ~ ~-1 ~ barrier run kill @s 
+
 execute as @e[type=item] if items entity @s weapon.* carrot_on_a_stick run data merge entity @s {PickupDelay:0s}

@@ -24,3 +24,7 @@ execute store result storage worf:axis left_rotation.angle float 0.01745329251 r
 execute as @e[tag=DoorCrystal] run data modify entity @s transformation.left_rotation set from storage worf:axis left_rotation
 
 function setting:main
+
+execute as @e[tag=particle.lobby] at @s run particle dust_color_transition{from_color:8930185,to_color:16329213,scale:1} ~ ~ ~ 1 1 1 20 10 force @a
+execute as @e[tag=particle.lobby2] at @s run particle dust_color_transition{from_color:8930185,to_color:16329213,scale:1} ~ ~ ~ 1.5 1.5 1.5 20 10 force @a
+execute as @e[tag=particle.lobby3] at @s run particle dust_color_transition{from_color:8930185,to_color:16329213,scale:1} ~ ~ ~ 2 0.7 2 15 15 force @a
