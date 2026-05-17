@@ -1,3 +1,3 @@
 clear @s white_dye
 scoreboard players set @s slot.1 1
-tellraw @s [{"color":"yellow","text":"You've selected the"},{"color":"red","text":" BOMB WAND "},{"color":"yellow","text":"for Slot 1"}]
+tellraw @s [{"translate":"select.wand.message",color:"gold",with:[{translate:"bomb.wand.name",color:"red"},{translate:"wand.slot.1"}]}]

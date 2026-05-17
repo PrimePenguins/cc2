@@ -27,4 +27,4 @@ execute as @a[gamemode=!spectator] at @s if predicate game:death run kill @s
 
 execute as @e[type=item] at @s if block ~ ~-1 ~ barrier run kill @s 
 
-execute as @e[type=item] if items entity @s weapon.* carrot_on_a_stick run data merge entity @s {PickupDelay:0s}
+execute as @e[type=item] if items entity @s contents carrot_on_a_stick run data merge entity @s {PickupDelay:0s}
