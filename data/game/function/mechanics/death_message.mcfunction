@@ -1,0 +1,1 @@
+$tellraw @a {'translate':"death.message$(num)",with:[{selector:"@s"}],color:"gray"}

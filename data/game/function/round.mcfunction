@@ -8,10 +8,10 @@ execute store result score $blue main if entity @a[team=blue,gamemode=survival]
 
 # Timer (if game is over 30 minuyes then shrink the border)
 scoreboard players add $timer main 1
-execute if score $timer main matches 30000 run function game:mechanics/border_shrink
+execute if score $timer main = $border_timer setting run function game:mechanics/border_shrink
 
 # System for events
-function game:mechanics/events/main
+execute if score $event setting matches 1 run function game:mechanics/events/main
 # Wands system
 execute as @a[scores={right.click=1..}] run function wands:main
 # Death system

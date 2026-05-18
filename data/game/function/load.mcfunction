@@ -19,5 +19,7 @@ team modify blue color blue
 team add red
 team modify red color red 
 
-# Loading Maps Section
+# Forceloading Maps / Map Section
+
 forceload add 9959 280 9998 2
+forceload add 39 199 -37 275
