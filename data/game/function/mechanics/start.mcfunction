@@ -22,17 +22,17 @@ execute as @a run attribute @s attack_knockback base set 3
 gamerule pvp true
 function wands:give/main
 scoreboard players set $inRound main 1
-execute positioned -14 47 237 run tp @a[team=blue] ~ ~20 ~
-execute positioned 16 47 237 run tp @a[team=red] ~ ~20 ~
+execute positioned -14 47 237 positioned over motion_blocking run tp @a[team=blue] ~ ~ ~
+execute positioned 16 47 237 positioned over motion_blocking run tp @a[team=red] ~ ~ ~
 worldborder set 75
 scoreboard players operation @a mana = $max_mana setting
 gamemode survival @a[team=!]
 
 # a small cooldown before game starts to prevent jumping into the void.
-execute as @a run attribute @s jump_strength base set 0
-execute as @a run attribute @s movement_speed base set -10
 
-schedule function game:mechanics/reset_player 20t
+effect give @a slowness 1 255 true
+
+function game:mechanics/reset_player
 
 schedule function game:mechanics/mana/reset_pm 20t
 gamemode spectator @a[team=]
