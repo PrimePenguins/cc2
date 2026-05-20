@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "advancment.killteam.name",
+      "color": "#8b3f34",
+      "shadow_color": 16683577
+    },
+    "description": {
+      "translate": "advancment.killteam.desc",
+      "color": "#ffa34d",
+      "shadow_color": 16746552
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cc2:first_blood",
+  "criteria": {
+    "blue": {
+         "trigger": "player_killed_entity",
+         "conditions": {
+          "player": {
+            "minecraft:team": "blue"
+          },
+          "entity": {
+            "minecraft:team": "blue"
+          } 
+         } 
+      },
+      "red": {
+        "trigger": "player_killed_entity",
+        "conditions": {
+          "player": {
+            "minecraft:team": "red"
+          },
+          "entity": {
+            "team": "red"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "blue",
+        "red"
+      ]
+    ]
+  }

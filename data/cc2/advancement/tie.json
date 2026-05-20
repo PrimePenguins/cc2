@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_helmet",
+      "components": {
+        "dyed_color": 6646378
+      }
+    },
+    "title": {
+      "translate": "advancment.tie.name",
+      "color": "#333333",
+      "shadow_color": 16683577
+    },
+    "description": {
+      "translate": "advancment.tie.desc",
+      "color": "#ffa34d",
+      "shadow_color": 16746552
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cc2:win",
+  "criteria": {
+    "tie": {
+        "trigger": "impossible"
+    }
+  }
+}

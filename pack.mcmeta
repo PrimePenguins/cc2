@@ -4,5 +4,13 @@
     "description": "",
     "min_format": 0,
     "max_format": 300
-  }
+  },
+  "filter": {
+        "block": [
+                        {
+                "namespace": "minecraft",
+                "path": "advancement/.*"
+            }
+        ]
+    }
 }

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_dye",
+      "components": {
+        "minecraft:item_model": "wands:icons/gray_hat"
+      }
+    },
+    "title": {
+      "translate": "advancment.start.name",
+      "color": "#4932af",
+      "shadow_color": 9687758
+    },
+    "description": {
+      "translate": "advancment.start.desc",
+      "color": "#6e6ce4",
+      "shadow_color": 7501284
+    },
+    "background": "minecraft:block/amethyst_block",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

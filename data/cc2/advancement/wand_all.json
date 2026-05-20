@@ -1,0 +1,125 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gray_dye",
+      "components": {
+        "item_model": "wands:tnt"
+      }
+    },
+    "title": {
+      "translate": "advancment.wandexpert.name",
+      "color": "#4863ad",
+      "shadow_color": 16683577
+    },
+    "description": {
+      "translate": "advancment.wandexpert.desc",
+      "color": "#ffa34d",
+      "shadow_color": 16746552
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cc2:root",
+  "criteria": {
+    "tnt": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+            {
+                "items": "carrot_on_a_stick",
+                "components": {
+                    "item_model": "wands:tnt"
+                }
+            }
+        ]
+      }
+    },
+      "bomb": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+            {
+                "items": "carrot_on_a_stick",
+                "components": {
+                    "item_model": "wands:bomb"
+                }
+            }
+        ]
+      }
+    },
+      "seeking": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+            {
+                "items": "carrot_on_a_stick",
+                "components": {
+                    "item_model": "wands:seeking"
+                }
+            }
+        ]
+      }
+    },
+    "rocket": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+            {
+                "items": "carrot_on_a_stick",
+                "components": {
+                    "item_model": "wands:rocket"
+                }
+            }
+        ]
+      }
+    },
+    "platform": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+            {
+                "items": "carrot_on_a_stick",
+                "components": {
+                    "item_model": "wands:platform"
+                }
+            }
+        ]
+      }
+    },
+    "teleport": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+            {
+                "items": "carrot_on_a_stick",
+                "components": {
+                    "item_model": "wands:teleport"
+                }
+            }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+        "tnt"
+    ],
+    [
+        "bomb"
+    ],
+    [
+        "seeking"
+    ],
+    [
+        "rocket"
+    ],
+    [
+        "platform"
+    ],
+    [
+        "teleport"
+    ]
+    
+  ]
+}
