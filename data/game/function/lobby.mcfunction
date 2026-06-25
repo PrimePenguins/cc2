@@ -3,7 +3,9 @@ execute store result score $blue main if entity @a[team=blue]
 
 execute as @a[predicate=game:lobby_death] at @s run tp -6 58 93
 kill @e[type=item]
-execute as @a run function game:lobby/enderchest with storage cost
+#execute as @a run function game:lobby/enderchest with storage cost\
+
+execute as @a run function enderchest:main
 
 execute if block -20 61 95 polished_blackstone_button[powered=true] run return run function game:mechanics/start
 

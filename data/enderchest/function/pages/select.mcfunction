@@ -1,0 +1,42 @@
+
+
+item replace entity @s enderchest.0 with gray_stained_glass_pane[tooltip_display={hide_tooltip:1b},item_model="cc2:gui/inventory"]
+
+item replace entity @s enderchest.1 with gray_stained_glass_pane[tooltip_display={hide_tooltip:1b},item_model="cc2:gui/inventory"]
+item replace entity @s enderchest.2 with gray_stained_glass_pane[tooltip_display={hide_tooltip:1b},item_model="cc2:gui/inventory"]
+item replace entity @s enderchest.3 with gray_stained_glass_pane[tooltip_display={hide_tooltip:1b},item_model="cc2:gui/inventory"]
+item replace entity @s enderchest.4 with gray_stained_glass_pane[tooltip_display={hide_tooltip:1b},item_model="cc2:gui/inventory"]
+item replace entity @s enderchest.5 with gray_stained_glass_pane[tooltip_display={hide_tooltip:1b},item_model="cc2:gui/inventory"]
+item replace entity @s enderchest.6 with gray_stained_glass_pane[tooltip_display={hide_tooltip:1b},item_model="cc2:gui/inventory"]
+item replace entity @s enderchest.7 with gray_stained_glass_pane[tooltip_display={hide_tooltip:1b},item_model="cc2:gui/inventory"]
+item replace entity @s enderchest.8 with gray_stained_glass_pane[tooltip_display={hide_tooltip:1b},item_model="cc2:gui/inventory"]
+item replace entity @s enderchest.9 with gray_stained_glass_pane[tooltip_display={hide_tooltip:1b},item_model="cc2:gui/inventory"]
+item replace entity @s enderchest.10 with gray_stained_glass_pane[tooltip_display={hide_tooltip:1b},item_model="cc2:gui/inventory"]
+
+# makes it so it CANNOT call for other wands when entering another page >:( (bro someone please help me its 12 am and i wanna finish this before i sleep)
+item replace entity @s enderchest.12 with white_dye[tooltip_display={hide_tooltip:1b},item_model="cc2:gui/inventory"]
+item replace entity @s enderchest.14 with white_dye[tooltip_display={hide_tooltip:1b},item_model="cc2:gui/inventory"]
+ 
+item replace entity @s enderchest.16 with gray_stained_glass_pane[tooltip_display={hide_tooltip:1b},item_model="cc2:gui/inventory"]
+item replace entity @s enderchest.17 with gray_stained_glass_pane[tooltip_display={hide_tooltip:1b},item_model="cc2:gui/inventory"]
+item replace entity @s enderchest.18 with gray_stained_glass_pane[tooltip_display={hide_tooltip:1b},item_model="cc2:gui/inventory"]
+item replace entity @s enderchest.19 with gray_stained_glass_pane[tooltip_display={hide_tooltip:1b},item_model="cc2:gui/inventory"]
+item replace entity @s enderchest.20 with gray_stained_glass_pane[tooltip_display={hide_tooltip:1b},item_model="cc2:gui/inventory"]
+item replace entity @s enderchest.21 with gray_stained_glass_pane[tooltip_display={hide_tooltip:1b},item_model="cc2:gui/inventory"]
+item replace entity @s enderchest.22 with gray_stained_glass_pane[tooltip_display={hide_tooltip:1b},item_model="cc2:gui/inventory"]
+item replace entity @s enderchest.23 with gray_stained_glass_pane[tooltip_display={hide_tooltip:1b},item_model="cc2:gui/inventory"]
+item replace entity @s enderchest.24 with gray_stained_glass_pane[tooltip_display={hide_tooltip:1b},item_model="cc2:gui/inventory"]
+item replace entity @s enderchest.25 with gray_stained_glass_pane[tooltip_display={hide_tooltip:1b},item_model="cc2:gui/inventory"]
+item replace entity @s enderchest.26 with gray_stained_glass_pane[tooltip_display={hide_tooltip:1b},item_model="cc2:gui/inventory"]
+
+execute unless items entity @s enderchest.11 white_dye run function enderchest:pages/explosive
+execute unless items entity @s enderchest.11 white_dye run scoreboard players set @s enderchest.page 1
+
+execute unless items entity @s enderchest.13 white_dye run function enderchest:pages/movement
+execute unless items entity @s enderchest.13 white_dye run scoreboard players set @s enderchest.page 2
+
+item replace entity @s enderchest.11 with white_dye[item_model="cc2:wands/tnt",lore=[{"translate":"enderchest.menu.explosive.lore",color:"gold"}],custom_name={"translate":"enderchest.menu.explosive",color:"red"}]
+item replace entity @s enderchest.13 with white_dye[item_model="cc2:wands/platform",lore=[{"translate":"enderchest.menu.movement.lore",color:"gold"}],custom_name={"translate":"enderchest.menu.movement",color:"red"}]
+
+
+
