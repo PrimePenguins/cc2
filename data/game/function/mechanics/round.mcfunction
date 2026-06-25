@@ -1,12 +1,8 @@
-# Check to see if each team has 0.
-execute if score $blue main matches 1.. if score $red main matches 0 run return run function game:mechanics/end/team {team:"blue"}
-execute if score $blue main matches 0 if score $red main matches 1.. run return run function game:mechanics/end/team {team:"red"}
-execute if score $blue main matches 0 if score $red main matches 0 run return run function game:mechanics/end/tie
+execute if score $gamemode main matches 0 run function game:mechanics/player_check/teams
+execute if score $gamemode main matches 1 run function game:mechanics/player_check/ffa
 
-execute store result score $red main if entity @a[team=red,gamemode=survival]
-execute store result score $blue main if entity @a[team=blue,gamemode=survival]
 
-# Timer (if game is over 30 minuyes then shrink the border)
+# Timer (if game is over the appointent time minutes then shrink the border)
 scoreboard players add $timer main 1
 execute if score $timer main = $border_timer setting run function game:mechanics/border_shrink
 

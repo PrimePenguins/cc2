@@ -1,6 +1,3 @@
-execute store result score $red main if entity @a[team=red]
-execute store result score $blue main if entity @a[team=blue]
-
 execute as @a[predicate=game:lobby_death] at @s run tp -6 58 93
 kill @e[type=item]
 #execute as @a run function game:lobby/enderchest with storage cost\

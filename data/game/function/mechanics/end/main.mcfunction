@@ -5,7 +5,7 @@ gamemode adventure @a
 team leave @a
 scoreboard players set $timer main 0
 scoreboard players set $event_timer main 0
-function game:mechanics/events/reset
+function game:mechanics/reset_game
 worldborder set 10000000
 clear @a
 gamerule pvp false
