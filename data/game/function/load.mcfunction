@@ -19,6 +19,10 @@ team add blue
 team modify blue color blue 
 team add red
 team modify red color red 
+team add playing
+team modify playing color green
+team modify playing collisionRule never
+
 
 # Forceloading Maps / Map Section
 
