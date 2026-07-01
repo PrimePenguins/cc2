@@ -1,12 +1,9 @@
 {
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
+  "condition": "minecraft:location_check",
   "predicate": {
-    "location": {
-      "position": {
-        "y": {
-          "min": 100
-        }
+    "position": {
+      "y": {
+        "min": 100
       }
     }
   }

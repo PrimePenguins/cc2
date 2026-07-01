@@ -9,3 +9,4 @@ function game:mechanics/reset_game
 worldborder set 10000000
 clear @a
 gamerule pvp false
+kill @e[tag=platform]
