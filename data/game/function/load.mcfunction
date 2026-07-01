@@ -26,5 +26,5 @@ team modify playing collisionRule never
 
 # Forceloading Maps / Map Section
 
-forceload add 9959 280 9998 2
+forceload add 9960 279 10088 28
 forceload add 39 199 -37 275

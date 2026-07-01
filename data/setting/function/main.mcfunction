@@ -10,6 +10,7 @@ execute as @e[tag=border.minus] on target run function setting:border {val:"remo
 execute as @e[tag=event.but] on target run function setting:events
 
 execute as @e[tag=randomize.button] on target run function setting:random_team
+execute as @e[tag=gamemode.button] on target run function setting:gamemode
 
 
 

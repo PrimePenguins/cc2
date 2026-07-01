@@ -29,7 +29,7 @@
             {
                 "items": "carrot_on_a_stick",
                 "components": {
-                    "item_model": "wands:tnt"
+                    "item_model": "cc2:wands/tnt"
                 }
             }
         ]
@@ -42,7 +42,7 @@
             {
                 "items": "carrot_on_a_stick",
                 "components": {
-                    "item_model": "wands:bomb"
+                    "item_model": "cc2:wands/bomb"
                 }
             }
         ]
@@ -55,7 +55,7 @@
             {
                 "items": "carrot_on_a_stick",
                 "components": {
-                    "item_model": "wands:seeking"
+                    "item_model": "cc2:wands/seeking"
                 }
             }
         ]
@@ -68,7 +68,7 @@
             {
                 "items": "carrot_on_a_stick",
                 "components": {
-                    "item_model": "wands:rocket"
+                    "item_model": "cc2:wands/rocket"
                 }
             }
         ]
@@ -81,7 +81,7 @@
             {
                 "items": "carrot_on_a_stick",
                 "components": {
-                    "item_model": "wands:platform"
+                    "item_model": "cc2:wands/platform"
                 }
             }
         ]
@@ -94,7 +94,7 @@
             {
                 "items": "carrot_on_a_stick",
                 "components": {
-                    "item_model": "wands:teleport"
+                    "item_model": "cc2:wands/teleport"
                 }
             }
         ]

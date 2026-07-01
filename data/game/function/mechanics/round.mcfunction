@@ -1,5 +1,5 @@
-execute if score $gamemode main matches 0 run function game:mechanics/player_check/teams
-execute if score $gamemode main matches 1 run function game:mechanics/player_check/ffa
+execute if score $gamemode setting matches 0 run function game:mechanics/player_check/teams
+execute if score $gamemode setting matches 1 run function game:mechanics/player_check/ffa
 
 
 # Timer (if game is over the appointent time minutes then shrink the border)

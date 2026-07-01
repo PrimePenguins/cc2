@@ -4,9 +4,9 @@ kill @e[type=item]
 
 execute as @a run function enderchest:main
 
-execute if block -20 61 95 polished_blackstone_button[powered=true] run return run function game:mechanics/start
+execute if block -20 61 95 polished_blackstone_button[powered=true] run return run function game:mechanics/start/main
 
-execute as @a[tag=!build] run function game:lobby/items
+execute as @a[tag=!build] run function game:lobby/items/main
 #execute if predicate {"condition":"minecraft:random_chance","chance": 0.25} store result entity @e[tag=DoorCrystal,limit=1] transformation.scale[] float 0.0001 run random value 50000..60000
 
 scoreboard players add Angle Angle 5
