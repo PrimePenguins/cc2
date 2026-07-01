@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:blue_dye",
       "components": {
-        "minecraft:item_model": "wands:icons/gray_hat"
+        "minecraft:item_model": "cc2:icons/gray_hat"
       }
     },
     "title": {

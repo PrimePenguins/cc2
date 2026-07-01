@@ -17,10 +17,10 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "cc2:first_blood",
+  "parent": "cc2:root",
   "criteria": {
     "win": {
-        "trigger": "impossible"
+      "trigger": "minecraft:impossible"
     }
   }
 }

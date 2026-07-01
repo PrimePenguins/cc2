@@ -20,7 +20,7 @@
   "parent": "cc2:win",
   "criteria": {
     "pmana": {
-        "trigger": "impossible"
+      "trigger": "minecraft:impossible"
     }
   }
 }

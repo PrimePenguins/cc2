@@ -1,9 +1,11 @@
 {
   "pack": {
-    "pack_format": 102,
+    "pack_format": 107,
     "description": "",
-    "min_format": 0,
-    "max_format": 300
+    "min_format": [
+      0, 107
+    ],
+    "max_format": 107
   },
   "filter": {
         "block": [

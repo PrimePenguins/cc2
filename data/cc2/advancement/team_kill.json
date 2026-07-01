@@ -20,7 +20,7 @@
   "parent": "cc2:first_blood",
   "criteria": {
     "blue": {
-         "trigger": "player_killed_entity",
+         "trigger": "minecraft:player_killed_entity",
          "conditions": {
           "player": {
             "minecraft:team": "blue"
@@ -31,13 +31,13 @@
          } 
       },
       "red": {
-        "trigger": "player_killed_entity",
+        "trigger": "minecraft:player_killed_entity",
         "conditions": {
           "player": {
             "minecraft:team": "red"
           },
           "entity": {
-            "team": "red"
+            "minecraft:team": "red"
           }
         }
       }

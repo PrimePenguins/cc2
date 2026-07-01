@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:gray_dye",
       "components": {
-        "item_model": "wands:tnt"
+        "item_model": "cc2:wands/tnt"
       }
     },
     "title": {
@@ -23,103 +23,102 @@
   "parent": "cc2:root",
   "criteria": {
     "tnt": {
-      "trigger": "inventory_changed",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
-            {
-                "items": "carrot_on_a_stick",
-                "components": {
-                    "item_model": "cc2:wands/tnt"
-                }
+          {
+            "items": "carrot_on_a_stick",
+            "components": {
+              "item_model": "cc2:wands/tnt"
             }
+          }
         ]
       }
     },
-      "bomb": {
-      "trigger": "inventory_changed",
+    "bomb": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
-            {
-                "items": "carrot_on_a_stick",
-                "components": {
-                    "item_model": "cc2:wands/bomb"
-                }
+          {
+            "items": "carrot_on_a_stick",
+            "components": {
+              "item_model": "cc2:wands/bomb"
             }
+          }
         ]
       }
     },
-      "seeking": {
-      "trigger": "inventory_changed",
+    "seeking": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
-            {
-                "items": "carrot_on_a_stick",
-                "components": {
-                    "item_model": "cc2:wands/seeking"
-                }
+          {
+            "items": "carrot_on_a_stick",
+            "components": {
+              "item_model": "cc2:wands/seeking"
             }
+          }
         ]
       }
     },
     "rocket": {
-      "trigger": "inventory_changed",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
-            {
-                "items": "carrot_on_a_stick",
-                "components": {
-                    "item_model": "cc2:wands/rocket"
-                }
+          {
+            "items": "carrot_on_a_stick",
+            "components": {
+              "item_model": "cc2:wands/rocket"
             }
+          }
         ]
       }
     },
     "platform": {
-      "trigger": "inventory_changed",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
-            {
-                "items": "carrot_on_a_stick",
-                "components": {
-                    "item_model": "cc2:wands/platform"
-                }
+          {
+            "items": "carrot_on_a_stick",
+            "components": {
+              "item_model": "cc2:wands/platform"
             }
+          }
         ]
       }
     },
     "teleport": {
-      "trigger": "inventory_changed",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
-            {
-                "items": "carrot_on_a_stick",
-                "components": {
-                    "item_model": "cc2:wands/teleport"
-                }
+          {
+            "items": "carrot_on_a_stick",
+            "components": {
+              "item_model": "cc2:wands/teleport"
             }
+          }
         ]
       }
     }
   },
   "requirements": [
     [
-        "tnt"
+      "tnt"
     ],
     [
-        "bomb"
+      "bomb"
     ],
     [
-        "seeking"
+      "seeking"
     ],
     [
-        "rocket"
+      "rocket"
     ],
     [
-        "platform"
+      "platform"
     ],
     [
-        "teleport"
+      "teleport"
     ]
-    
   ]
 }

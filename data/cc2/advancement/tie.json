@@ -23,7 +23,7 @@
   "parent": "cc2:win",
   "criteria": {
     "tie": {
-        "trigger": "impossible"
+      "trigger": "minecraft:impossible"
     }
   }
 }
