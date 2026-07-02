@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stick",
+      "components": {
+        "item_model": "cc2:wands/bomb"
+      }
+    },
+    "title": {
+      "translate": "advancment.noexplosive.name",
+      "color": "#ff3337",
+      "shadow_color": 16683577
+    },
+    "description": {
+      "translate": "advancment.noexplosive.desc",
+      "color": "#ff3337",
+      "shadow_color": 16746552
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cc2:wands/wand_all",
+  
+  "criteria": {
+    "no_explosion": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

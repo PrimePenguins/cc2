@@ -18,6 +18,7 @@ gamerule pvp true
 function wands:give/main
 scoreboard players set $inRound main 1
 
+
 worldborder set 75
 scoreboard players operation @a mana = $max_mana setting
 gamemode survival @a[team=!]

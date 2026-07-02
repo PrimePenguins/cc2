@@ -3,6 +3,7 @@ scoreboard players operation @s mana -= $bomb_cost mana
 
 scoreboard players operation @s previous.mana -= @s mana
 tag @s add raycast
+advancement grant @s only game:used_explosive
 
 scoreboard players set .raycastLimit raycast 1000
 

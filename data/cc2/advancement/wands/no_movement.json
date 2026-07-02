@@ -1,28 +1,30 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:leather_helmet",
+      "id": "minecraft:stick",
       "components": {
-        "dyed_color": 6646378
+        "item_model": "cc2:wands/platform"
       }
     },
     "title": {
-      "translate": "advancment.tie.name",
-      "color": "#333333",
+      "translate": "advancment.nomovement.name",
+      "color": "#ff9c32",
       "shadow_color": 16683577
     },
     "description": {
-      "translate": "advancment.tie.desc",
-      "color": "#ffa34d",
+      "translate": "advancment.nomovement.desc",
+      "color": "#ff9c32",
       "shadow_color": 16746552
     },
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "cc2:win",
+  "parent": "cc2:wands/no_explosive",
+  
   "criteria": {
-    "tie": {
+    "no_movement": {
       "trigger": "minecraft:impossible"
     }
   }

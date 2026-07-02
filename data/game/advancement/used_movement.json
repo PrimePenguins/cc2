@@ -1,0 +1,7 @@
+{
+    "criteria": {
+        "used_movement": {
+            "trigger": "impossible"
+        }
+    }
+}

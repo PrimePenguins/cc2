@@ -17,7 +17,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "cc2:first_blood",
+  "parent": "cc2:kill/first_blood",
   "criteria": {
     "blue": {
          "trigger": "minecraft:player_killed_entity",

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lapis_lazuli"
+    },
+    "title": {
+      "translate": "advancment.perfectmana.name",
+      "color": "#7860ff",
+      "shadow_color": 16683577
+    },
+    "description": {
+      "translate": "advancment.perfectmana.desc",
+      "color": "#591cff",
+      "shadow_color": 16746552
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cc2:wands/no_movement",
+  "criteria": {
+    "pmana": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

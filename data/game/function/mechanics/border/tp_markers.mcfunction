@@ -19,4 +19,4 @@ execute as @e[tag=conor.2] at @s run particle dust{color:12849425,scale:1}
 
 function game:mechanics/border/fill with storage pos
 say filled!
-schedule function game:mechanics/border/tp_markers 20t
+schedule function game:mechanics/border/tp_markers 80t
