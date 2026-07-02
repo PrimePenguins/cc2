@@ -18,7 +18,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "cc2:root",
+  "parent": "cc2:map/map_explorer",
   
   "criteria": {
     "nether_teams_wins": {
