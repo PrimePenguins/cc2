@@ -6,6 +6,10 @@ team leave @a
 scoreboard players set $timer main 0
 scoreboard players set $event_timer main 0
 function game:mechanics/reset_game
+schedule clear game:mechanics/border/tp_markers
+execute as @e[tag=conor.1] positioned -36 121 274 align xyz run tp ~0.5 ~ ~0.5
+execute as @e[tag=conor.2] positioned 38 23 200 align xyz run tp ~0.5 ~ ~0.5
+
 worldborder set 10000000
 clear @a
 gamerule pvp false
