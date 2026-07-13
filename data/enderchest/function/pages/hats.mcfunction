@@ -4,7 +4,7 @@
 
 
 
-
+say on hat!
 item replace entity @s enderchest.22 with white_dye[item_model="cc2:gui/back",custom_name={"translate":"enderchest.menu.back",color:"dark_green"}]
 item replace entity @s enderchest.11 with white_dye[item_model="minecraft:barrier",custom_name={"translate":"enderchest.hats.none",color:"red"},lore=[{"translate":"enderchest.hats.none.desc",color:"red"}]]
 item replace entity @s enderchest.12 with white_dye[item_model="cc2:hats/wizard",custom_name={"translate":"enderchest.hats.wizard",color:"#a132cd"},lore=[{"translate":"enderchest.hats.wizard.desc",color:"#a132cd"}]]
