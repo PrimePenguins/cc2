@@ -1,0 +1,1 @@
+item replace entity @s armor.head with gray_dye[item_model="cc2:"]

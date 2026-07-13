@@ -1,6 +1,6 @@
 # Add Scoreboards
 scoreboard objectives add main dummy
-scoreboard objectives add right.click minecraft.used:minecraft.carrot_on_a_stick
+
 scoreboard objectives add mana dummy
 scoreboard objectives add raycast dummy
 scoreboard objectives add death minecraft.custom:deaths
@@ -8,11 +8,17 @@ scoreboard objectives add login minecraft.custom:minecraft.leave_game
 scoreboard objectives add Angle dummy
 scoreboard objectives add previous.mana dummy
 scoreboard objectives add setting dummy
+# Wands / Other Stuff
+scoreboard objectives add right.click minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add slot.1 dummy
 scoreboard objectives add slot.2 dummy
+scoreboard objectives add hats.slot dummy
+scoreboard objectives add platform.time dummy
+
 scoreboard objectives add math dummy
 scoreboard objectives add enderchest.page dummy
-scoreboard objectives add platform.time dummy
+
+
 
 
 

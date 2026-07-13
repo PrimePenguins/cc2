@@ -34,5 +34,9 @@ execute unless items entity @s enderchest.11 white_dye run scoreboard players se
 execute unless items entity @s enderchest.13 white_dye run function enderchest:pages/movement
 execute unless items entity @s enderchest.13 white_dye run scoreboard players set @s enderchest.page 2
 
+execute unless items entity @s enderchest.15 white_dye run function enderchest:pages/hats
+execute unless items entity @s enderchest.15 white_dye run scoreboard players set @s enderchest.page 3
+
 item replace entity @s enderchest.11 with white_dye[item_model="cc2:wands/tnt",lore=[{"translate":"enderchest.menu.explosive.lore",color:"gold"}],custom_name={"translate":"enderchest.menu.explosive",color:"red"}]
 item replace entity @s enderchest.13 with white_dye[item_model="cc2:wands/platform",lore=[{"translate":"enderchest.menu.movement.lore",color:"gold"}],custom_name={"translate":"enderchest.menu.movement",color:"red"}]
+item replace entity @s enderchest.15 with white_dye[item_model="cc2:icons/gray_hat",lore=[{"translate":"enderchest.menu.hats.lore",color:"gold"}],custom_name={"translate":"enderchest.menu.hats",color:"red"}]
