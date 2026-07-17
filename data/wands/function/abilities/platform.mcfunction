@@ -3,7 +3,7 @@ execute unless predicate wands:fall_check positioned ~ ~5 ~ if predicate game:bu
 execute if predicate game:build_limit run return run tellraw @s {"translate":"error.buildheight.text",color:"red"}
 advancement grant @s only game:used_movement
 scoreboard players operation @s previous.mana = @s mana
-scoreboard players operation @s mana -= $platform_cost mana
+scoreboard players operation @s mana -= $platform_cost mana.cost
 
 scoreboard players operation @s previous.mana -= @s mana
 playsound block.glass.place master @a

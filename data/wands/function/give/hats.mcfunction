@@ -1,1 +1,3 @@
-item replace entity @s armor.head with gray_dye[item_model="cc2:"]
+item replace entity @s[scores={hats.slot=1}] armor.head with white_dye[item_model="cc2:hats/wizard",custom_name={"translate":"enderchest.hats.wizard",color:"#a132cd"},lore=[{"translate":"enderchest.hats.wizard.desc",color:"#a132cd"}],equippable={slot:"head"}]
+item replace entity @s[scores={hats.slot=2}] armor.head with white_dye[item_model="cc2:hats/rocket",custom_name={"translate":"enderchest.hats.rocket",color:"#ff0000"},lore=[{"translate":"enderchest.hats.rocket.desc",color:"#ff0000"}],equippable={slot:"head"}]
+item replace entity @s[scores={hats.slot=3}] armor.head with white_dye[item_model="cc2:hats/crown",custom_name={"translate":"enderchest.hats.crown",color:"#ffd700"},lore=[{"translate":"enderchest.hats.crown.desc",color:"#ffd700"}],equippable={slot:"head"}]

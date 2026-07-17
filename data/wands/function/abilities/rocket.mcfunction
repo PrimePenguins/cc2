@@ -1,5 +1,5 @@
 scoreboard players operation @s previous.mana = @s mana
-scoreboard players operation @s mana -= $rocket_cost mana
+scoreboard players operation @s mana -= $rocket_cost mana.cost
 
 scoreboard players operation @s previous.mana -= @s mana
 advancement grant @s only game:used_movement
