@@ -5,8 +5,8 @@ execute if entity @s[team=red] unless entity @a[distance=0.05..30,team=blue,game
 scoreboard players operation @s previous.mana = @s mana
 scoreboard players operation @s mana -= $seeking_cost mana.cost
 
+
 scoreboard players operation @s previous.mana -= @s mana
-$execute if entity @s[team=blue] as @a[distance=0.05..30,team=red,gamemode=!spectator] at @s run summon tnt ~ ~ ~ {fuse:5,explosion_power:3f,owner:$(UUID)}
-$execute if entity @s[team=red] as @a[distance=0.05..30,team=blue,gamemode=!spectator] at @s run summon tnt ~ ~ ~ {fuse:5,explosion_power:3f,owner:$(UUID)}
-$execute if entity @s[team=playing] as @a[distance=0.05..30,team=playing,gamemode=!spectator] at @s run summon tnt ~ ~ ~ {fuse:5,explosion_power:3f,owner:$(UUID)}
+execute if predicate wands:sneaking run function wands:menchanics/seeking/under with entity @s
+execute unless predicate wands:sneaking run function wands:menchanics/seeking/above with entity @s
 advancement grant @s only game:used_explosive

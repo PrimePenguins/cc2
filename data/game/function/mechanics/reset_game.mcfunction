@@ -5,4 +5,5 @@ execute as @a run attribute @s gravity base reset
 execute as @a run attribute @s block_interaction_range base reset
 execute as @a run attribute @s entity_interaction_range base reset
 scoreboard players set $mana_add setting 20
+scoreboard players set $event main 0
 schedule clear game:mechanics/events/actions/tnt_rain

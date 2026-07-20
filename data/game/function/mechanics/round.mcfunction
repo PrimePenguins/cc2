@@ -1,13 +1,16 @@
 execute if score $gamemode setting matches 0 run function game:mechanics/player_check/teams
 execute if score $gamemode setting matches 1 run function game:mechanics/player_check/ffa
+execute if score $gamemode setting matches 2 run function game:mechanics/player_check/testing
 
 
 # Timer (if game is over the appointent time minutes then shrink the border)
-scoreboard players add $timer main 1
+
+execute unless score $border_timer setting matches ..0 run scoreboard players add $timer main 1
+execute store result bossbar border value run scoreboard players get $timer main
 execute if score $timer main = $border_timer setting run function game:mechanics/border_shrink
 
 # System for events
-execute if score $event setting matches 1 run function game:mechanics/events/main
+execute if score $event_timer setting matches 1.. run function game:mechanics/events/main
 # Wands system
 execute as @a[scores={right.click=1..}] run function wands:main
 # Death system

@@ -14,8 +14,5 @@ execute as @e[tag=conor.1] at @s run tp ~1 ~ ~-1
 
 execute if entity @e[tag=conor.1,predicate=game:border_limit] if entity @e[tag=conor.2,predicate=game:border_limit] run return fail
 
-execute as @e[tag=conor.1] at @s run particle dust{color:374736,scale:1}
-execute as @e[tag=conor.2] at @s run particle dust{color:12849425,scale:1}
-
 function game:mechanics/border/fill with storage pos
 schedule function game:mechanics/border/tp_markers 40t

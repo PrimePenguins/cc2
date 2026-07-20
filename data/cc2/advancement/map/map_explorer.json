@@ -38,6 +38,12 @@
     },
     "winter_ffa": {
       "trigger": "minecraft:impossible"
+    },
+    "desert_teams": {
+      "trigger": "minecraft:impossible"
+    },
+    "desert_ffa": {
+      "trigger": "minecraft:impossible"
     }
   },
   "requirements": [
@@ -58,6 +64,12 @@
     ],
     [
         "winter_teams"
+    ],
+    [
+      "desert_ffa"
+    ],
+    [
+      "desert_teams"
     ]
   ]
 }    

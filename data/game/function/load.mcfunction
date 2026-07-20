@@ -34,7 +34,14 @@ team modify playing color green
 team modify playing collisionRule never
 
 
+# Bossbar
+bossbar add border {"translate":"border.message.bossbar","color":"white"}
+bossbar set border color white
+bossbar set border style notched_6
+bossbar set border value 0
+
+
 # Forceloading Maps / Map Section
 
-forceload add 9960 279 10088 28
+forceload add 9960 279 10088 -58
 forceload add 39 199 -37 275

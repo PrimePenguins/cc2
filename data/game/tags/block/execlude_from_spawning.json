@@ -3,7 +3,9 @@
         "air",
         "barrier",
         "water",
-        "lava"
+        "lava",
+        "powder_snow",
+        "cactus"
 
     ]
 }

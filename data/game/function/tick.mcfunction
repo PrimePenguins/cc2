@@ -7,5 +7,3 @@ execute if score $inRound main matches 0 run function game:lobby
 effect give @a resistance infinite 5 true
 effect give @a saturation infinite 4 true
 
-execute as @e[tag=conor.1] at @s run particle dust{color:374736,scale:1}
-execute as @e[tag=conor.2] at @s run particle dust{color:12849425,scale:1}

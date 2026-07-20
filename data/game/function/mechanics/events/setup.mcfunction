@@ -1,4 +1,5 @@
 # Setup for events
+scoreboard players set $event_timer main 0
 execute store result score $event main run random value 1..4
 
 execute if score $event main matches 1 run function game:mechanics/events/setup/big

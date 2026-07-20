@@ -36,3 +36,9 @@ schedule function game:mechanics/reset_game 40t
 
 schedule function game:mechanics/mana/reset_pm 20t
 gamemode spectator @a[team=]
+
+spawnpoint @a 1 135 237
+
+# Bossbar
+execute store result bossbar border max run scoreboard players get $border_timer setting
+execute unless score $border_timer setting matches ..0 run bossbar set border visible true

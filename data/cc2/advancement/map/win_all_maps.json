@@ -38,6 +38,12 @@
     },
     "winter_ffa_wins": {
       "trigger": "minecraft:impossible"
+    },
+        "desert_teams_wins": {
+      "trigger": "minecraft:impossible"
+    },
+    "desert_ffa_wins": {
+      "trigger": "minecraft:impossible"
     }
   },
   "requirements": [
@@ -58,6 +64,12 @@
     ],
     [
         "winter_teams_wins"
+    ],
+    [
+        "desert_ffa_wins"
+    ],
+    [
+        "desert_teams_wins"
     ]
   ]
 }    
