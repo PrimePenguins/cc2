@@ -10,6 +10,7 @@ scoreboard objectives add slot.1 dummy
 scoreboard objectives add slot.2 dummy
 scoreboard objectives add hats.slot dummy
 scoreboard objectives add platform.time dummy
+scoreboard objectives add pos dummy
 
 scoreboard objectives add math dummy
 scoreboard objectives add enderchest.page dummy
