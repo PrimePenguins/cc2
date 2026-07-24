@@ -7,3 +7,4 @@ execute as @a run attribute @s entity_interaction_range base reset
 scoreboard players set $mana_add setting 20
 scoreboard players set $event main 0
 schedule clear game:mechanics/events/actions/tnt_rain
+schedule clear game:mechanics/events/actions/floor_is_explosive

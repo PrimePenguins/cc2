@@ -35,9 +35,9 @@ team modify playing collisionRule never
 
 
 # Bossbar
-bossbar add border {"translate":"border.message.bossbar","color":"white"}
-bossbar set border color white
-bossbar set border style notched_6
+bossbar add border {"translate":"border.message.bossbar","color":"red"}
+bossbar set border color red
+bossbar set border style notched_20
 bossbar set border value 0
 
 
