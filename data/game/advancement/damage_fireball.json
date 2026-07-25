@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "hit_by_fireball": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "source_entity": {
+              "minecraft:entity_type": "minecraft:player",
+              "minecraft:distance": {
+                "absolute": {
+                  "max": 10
+                }
+              }
+            },
+            "direct_entity": {
+              "minecraft:entity_type": "minecraft:fireball"
+            }
+          }
+        }
+      }
+    }
+    }
+}

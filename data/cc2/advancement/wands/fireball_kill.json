@@ -4,12 +4,12 @@
       "id": "minecraft:fire_charge"
     },
     "title": {
-        "translate": "advancment.fireball.name",
-        "color": "#fd4d21"
+      "translate": "advancment.fireball.name",
+      "color": "#fd4d21"
     },
     "description": {
-        "translate": "advancment.fireball.desc",
-        "color": "#fe9258"
+      "translate": "advancment.fireball.desc",
+      "color": "#fe9258"
     },
     "frame": "challenge"
   },
@@ -18,20 +18,21 @@
     "fireball_kill": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "entity": {
-          "minecraft:entity_type": "minecraft:player"
-        },
-        "killing_blow": {
-          "direct_entity": {
-            "minecraft:entity_type": "minecraft:fireball"
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "game:damage_fireball": true
+            }
           }
+        },
+        "entity": {
         }
       }
     }
   },
   "requirements": [
     [
-        "fireball_kill"
+      "fireball_kill"
     ]
   ]
 }

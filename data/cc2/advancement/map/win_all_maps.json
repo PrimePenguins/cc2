@@ -5,13 +5,11 @@
     },
     "title": {
       "translate": "advancment.winallmaps.name",
-      "color": "#ff3337",
-      "shadow_color": 16683577
+      "color": "#ff3337"
     },
     "description": {
       "translate": "advancment.winallmaps.desc",
-      "color": "#ff3337",
-      "shadow_color": 16746552
+      "color": "#ff3337"
     },
     "frame": "goal",
     "show_toast": true,

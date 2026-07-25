@@ -5,13 +5,11 @@
     },
     "title": {
       "translate": "advancment.perfectmana.name",
-      "color": "#7860ff",
-      "shadow_color": 16683577
+      "color": "#7860ff"
     },
     "description": {
       "translate": "advancment.perfectmana.desc",
-      "color": "#591cff",
-      "shadow_color": 16746552
+      "color": "#591cff"
     },
     "frame": "challenge",
     "show_toast": true,

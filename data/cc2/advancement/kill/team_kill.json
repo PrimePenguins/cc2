@@ -5,13 +5,11 @@
     },
     "title": {
       "translate": "advancment.killteam.name",
-      "color": "#8b3f34",
-      "shadow_color": 16683577
+      "color": "#8b3f34"
     },
     "description": {
       "translate": "advancment.killteam.desc",
-      "color": "#ffa34d",
-      "shadow_color": 16746552
+      "color": "#ffa34d"
     },
     "show_toast": true,
     "announce_to_chat": true,

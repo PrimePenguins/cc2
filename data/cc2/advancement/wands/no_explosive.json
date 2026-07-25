@@ -8,13 +8,11 @@
     },
     "title": {
       "translate": "advancment.noexplosive.name",
-      "color": "#ff3337",
-      "shadow_color": 16683577
+      "color": "#ff3337"
     },
     "description": {
       "translate": "advancment.noexplosive.desc",
-      "color": "#ff3337",
-      "shadow_color": 16746552
+      "color": "#ff3337"
     },
     "frame": "challenge",
     "show_toast": true,

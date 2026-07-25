@@ -8,13 +8,11 @@
     },
     "title": {
       "translate": "advancment.nomovement.name",
-      "color": "#ff9c32",
-      "shadow_color": 16683577
+      "color": "#ff9c32"
     },
     "description": {
       "translate": "advancment.nomovement.desc",
-      "color": "#ff9c32",
-      "shadow_color": 16746552
+      "color": "#ff9c32"
     },
     "frame": "challenge",
     "show_toast": true,

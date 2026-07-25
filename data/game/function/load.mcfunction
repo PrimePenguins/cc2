@@ -25,6 +25,9 @@ scoreboard objectives add death minecraft.custom:deaths
 scoreboard objectives add main dummy
 scoreboard objectives add raycast dummy
 
+# Achivement
+scoreboard objectives add fireball.timer dummy
+
 # Add Teams
 team add blue
 team modify blue color blue 

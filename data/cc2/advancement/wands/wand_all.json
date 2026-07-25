@@ -8,13 +8,11 @@
     },
     "title": {
       "translate": "advancment.wandexpert.name",
-      "color": "#9fb8fd",
-      "shadow_color": 16683577
+      "color": "#9fb8fd"
     },
     "description": {
       "translate": "advancment.wandexpert.desc",
-      "color": "#ffa34d",
-      "shadow_color": 16746552
+      "color": "#ffa34d"
     },
     "show_toast": true,
     "announce_to_chat": true,

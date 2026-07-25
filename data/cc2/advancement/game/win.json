@@ -5,13 +5,11 @@
     },
     "title": {
       "translate": "advancment.win.name",
-      "color": "#9e6700",
-      "shadow_color": 16683577
+      "color": "#9e6700"
     },
     "description": {
       "translate": "advancment.win.desc",
-      "color": "#ffa34d",
-      "shadow_color": 16746552
+      "color": "#ffa34d"
     },
     "show_toast": true,
     "announce_to_chat": true,
