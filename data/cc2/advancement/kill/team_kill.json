@@ -4,11 +4,11 @@
       "id": "minecraft:skeleton_skull"
     },
     "title": {
-      "translate": "advancment.killteam.name",
+      "translate": "advancement.killteam.name",
       "color": "#8b3f34"
     },
     "description": {
-      "translate": "advancment.killteam.desc",
+      "translate": "advancement.killteam.desc",
       "color": "#ffa34d"
     },
     "show_toast": true,

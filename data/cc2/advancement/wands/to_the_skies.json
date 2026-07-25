@@ -1,0 +1,41 @@
+{
+    "parent": "cc2:wands/wand_all",
+    "display": {
+        "icon": {
+            "id": "stick",
+            "components": {
+                "item_model": "cc2:wands/rocket"
+            }
+        },
+        "title": {
+            "translate": "advancement.height.name",
+            "color": "#ff6022"
+        },
+        "description": {
+            "translate": "advancement.height.desc",
+            "color": "#fd5c5c"
+        },
+        "frame": "task"
+    },
+    "criteria": {
+        "skies": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "position": {
+                            "y": {
+                                "min": 200
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "skies"
+        ]
+    ]
+}

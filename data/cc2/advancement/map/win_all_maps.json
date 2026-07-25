@@ -4,11 +4,11 @@
       "id": "minecraft:filled_map"
     },
     "title": {
-      "translate": "advancment.winallmaps.name",
+      "translate": "advancement.winallmaps.name",
       "color": "#ff3337"
     },
     "description": {
-      "translate": "advancment.winallmaps.desc",
+      "translate": "advancement.winallmaps.desc",
       "color": "#ff3337"
     },
     "frame": "goal",

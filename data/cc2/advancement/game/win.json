@@ -4,11 +4,11 @@
       "id": "minecraft:golden_helmet"
     },
     "title": {
-      "translate": "advancment.win.name",
+      "translate": "advancement.win.name",
       "color": "#9e6700"
     },
     "description": {
-      "translate": "advancment.win.desc",
+      "translate": "advancement.win.desc",
       "color": "#ffa34d"
     },
     "show_toast": true,

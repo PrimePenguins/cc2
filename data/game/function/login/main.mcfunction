@@ -1,13 +1,5 @@
  tag @s add login
 
-item replace entity @s enderchest.12 with white_dye
-item replace entity @s enderchest.13 with white_dye
-item replace entity @s enderchest.14 with white_dye
-
-item replace entity @s enderchest.21 with white_dye
-item replace entity @s enderchest.22 with white_dye
-item replace entity @s enderchest.23 with white_dye
-
 execute as @e[type=text_display] run data modify entity @s text merge from entity @s text
 execute if score $inRound main matches 1 run function game:login/ingame
 execute if score $inRound main matches 0 run function game:login/lobby

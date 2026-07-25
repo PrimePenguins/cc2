@@ -4,11 +4,11 @@
       "id": "minecraft:tnt"
     },
     "title": {
-      "translate": "advancment.firstblood.name",
+      "translate": "advancement.firstblood.name",
       "color": "#861000"
     },
     "description": {
-      "translate": "advancment.firstblood.desc",
+      "translate": "advancement.firstblood.desc",
       "color": "#ffa34d"
     },
     "show_toast": true,

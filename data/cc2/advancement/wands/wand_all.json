@@ -7,11 +7,11 @@
       }
     },
     "title": {
-      "translate": "advancment.wandexpert.name",
+      "translate": "advancement.wandexpert.name",
       "color": "#9fb8fd"
     },
     "description": {
-      "translate": "advancment.wandexpert.desc",
+      "translate": "advancement.wandexpert.desc",
       "color": "#ffa34d"
     },
     "show_toast": true,
@@ -97,6 +97,19 @@
           }
         ]
       }
+    },
+    "fireball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "carrot_on_a_stick",
+            "components": {
+              "item_model": "cc2:wands/fireball"
+            }
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -117,6 +130,9 @@
     ],
     [
       "teleport"
+    ],
+    [
+      "fireball"
     ]
   ]
 }

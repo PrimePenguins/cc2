@@ -7,11 +7,11 @@
       }
     },
     "title": {
-      "translate": "advancment.tie.name",
+      "translate": "advancement.tie.name",
       "color": "#333333"
     },
     "description": {
-      "translate": "advancment.tie.desc",
+      "translate": "advancement.tie.desc",
       "color": "#ffa34d"
     },
     "show_toast": true,

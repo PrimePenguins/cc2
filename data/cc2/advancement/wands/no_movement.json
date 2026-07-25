@@ -7,11 +7,11 @@
       }
     },
     "title": {
-      "translate": "advancment.nomovement.name",
+      "translate": "advancement.nomovement.name",
       "color": "#ff9c32"
     },
     "description": {
-      "translate": "advancment.nomovement.desc",
+      "translate": "advancement.nomovement.desc",
       "color": "#ff9c32"
     },
     "frame": "challenge",

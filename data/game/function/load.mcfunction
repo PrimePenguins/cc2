@@ -50,7 +50,6 @@ bossbar set border value 0
 
 
 # Forceloading Maps / Map Section
-
 forceload add 9960 279 10088 -58
 forceload add 39 199 -37 275
 
@@ -66,4 +65,5 @@ gamerule block_explosion_drop_decay false
 gamerule mob_explosion_drop_decay false
 gamerule send_command_feedback false
 gamerule fire_spread_radius_around_player 0
+gamerule show_death_messages false
 gamerule max_block_modifications 2147483647

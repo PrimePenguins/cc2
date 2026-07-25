@@ -4,16 +4,16 @@
       "id": "minecraft:fire_charge"
     },
     "title": {
-      "translate": "advancment.fireball.name",
+      "translate": "advancement.fireball.name",
       "color": "#fd4d21"
     },
     "description": {
-      "translate": "advancment.fireball.desc",
+      "translate": "advancement.fireball.desc",
       "color": "#fe9258"
     },
     "frame": "challenge"
   },
-  "parent": "cc2:wands/wand_all",
+  "parent": "cc2:wands/to_the_skies",
   "criteria": {
     "fireball_kill": {
       "trigger": "minecraft:player_killed_entity",

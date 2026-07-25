@@ -4,11 +4,11 @@
       "id": "minecraft:lapis_lazuli"
     },
     "title": {
-      "translate": "advancment.perfectmana.name",
+      "translate": "advancement.perfectmana.name",
       "color": "#7860ff"
     },
     "description": {
-      "translate": "advancment.perfectmana.desc",
+      "translate": "advancement.perfectmana.desc",
       "color": "#591cff"
     },
     "frame": "challenge",

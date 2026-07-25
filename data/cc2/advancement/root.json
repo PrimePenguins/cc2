@@ -7,12 +7,12 @@
       }
     },
     "title": {
-      "translate": "advancment.start.name",
+      "translate": "advancement.start.name",
       "color": "#4932af",
       "shadow_color": 9687758
     },
     "description": {
-      "translate": "advancment.start.desc",
+      "translate": "advancement.start.desc",
       "color": "#6e6ce4",
       "shadow_color": 7501284
     },
