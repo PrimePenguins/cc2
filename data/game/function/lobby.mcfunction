@@ -5,7 +5,7 @@ execute as @a run function enderchest:main
 execute if block -20 61 95 polished_blackstone_button[powered=true] run return run function game:mechanics/start/main
 
 execute as @a[tag=!build] run function game:lobby/items/main
-#execute if predicate {"condition":"minecraft:random_chance","chance": 0.25} store result entity @e[tag=DoorCrystal,limit=1] transformation.scale[] float 0.0001 run random value 50000..60000
+gamemode adventure @a[tag=!build,gamemode=spectator]
 
 scoreboard players add Angle Angle 5
 execute if score Angle Angle matches 360.. run scoreboard players set Angle Angle 0
@@ -15,6 +15,7 @@ execute as @e[tag=DoorCrystal] run data modify entity @s transformation.left_rot
 
 function setting:main
 
+# Particiles!
 execute as @e[tag=particle.lobby] at @s run particle dust_color_transition{from_color:8930185,to_color:16329213,scale:1} ~ ~ ~ 1 1 1 20 10 force @a
 execute as @e[tag=particle.lobby2] at @s run particle dust_color_transition{from_color:8930185,to_color:16329213,scale:1} ~ ~ ~ 1.5 1.5 1.5 20 10 force @a
 execute as @e[tag=particle.lobby3] at @s run particle dust_color_transition{from_color:8930185,to_color:16329213,scale:1} ~ ~ ~ 2 0.7 2 15 15 force @a

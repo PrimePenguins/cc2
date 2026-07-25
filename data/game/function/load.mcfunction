@@ -25,14 +25,18 @@ scoreboard objectives add death minecraft.custom:deaths
 scoreboard objectives add main dummy
 scoreboard objectives add raycast dummy
 
-# Achivement
+# Achivement Releated
 scoreboard objectives add fireball.timer dummy
 
 # Add Teams
 team add blue
 team modify blue color blue 
+team modify blue collisionRule never
+
 team add red
 team modify red color red 
+team modify red collisionRule never
+
 team add playing
 team modify playing color green
 team modify playing collisionRule never
@@ -49,3 +53,17 @@ bossbar set border value 0
 
 forceload add 9960 279 10088 -58
 forceload add 39 199 -37 275
+
+# Gamerules
+
+gamerule fall_damage false
+gamerule advance_time false
+gamerule advance_weather false
+gamerule allow_entering_nether_using_portals false
+gamerule fire_damage false
+gamerule immediate_respawn true
+gamerule block_explosion_drop_decay false
+gamerule mob_explosion_drop_decay false
+gamerule send_command_feedback false
+gamerule fire_spread_radius_around_player 0
+gamerule max_block_modifications 2147483647
