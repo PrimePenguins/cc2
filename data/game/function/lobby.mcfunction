@@ -1,5 +1,5 @@
 execute as @a[predicate=game:lobby_death] at @s run tp -6 58 93
-kill @e[type=item]
+kill @e[type=#game:kill_in_lobby]
 execute as @a run function enderchest:main
 
 execute if block -20 61 95 polished_blackstone_button[powered=true] run return run function game:mechanics/start/main
