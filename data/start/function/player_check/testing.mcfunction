@@ -1,0 +1,3 @@
+function start:maps/ffa
+execute unless entity @a[gamemode=survival] run function game:mechanics/end/main
+

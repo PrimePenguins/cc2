@@ -1,0 +1,10 @@
+# Setup for events
+scoreboard players set $event_timer main 0
+execute store result score $event main run random value 1..6
+
+execute if score $event main matches 1 run function game:events/setup/big
+execute if score $event main matches 2 run function game:events/setup/low_gravity
+execute if score $event main matches 3 run function game:events/setup/tnt_rain
+execute if score $event main matches 4 run function game:events/setup/2x_mana
+execute if score $event main matches 5 run function game:events/setup/high_gravity
+execute if score $event main matches 6 run function game:events/setup/floor_is_explosive

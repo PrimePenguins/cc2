@@ -1,1 +1,0 @@
-execute if entity @s[advancements={game:damage_fireball=true}] run function game:mechanics/achivements/fireballed
