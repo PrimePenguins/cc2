@@ -6,4 +6,3 @@ execute if score $inRound main matches 0 run function main:lobby
 
 effect give @a resistance infinite 5 true
 effect give @a saturation infinite 4 true
-

@@ -1,6 +1,6 @@
-execute if score $gamemode setting matches 0 run function game:mechanics/player_check/teams
-execute if score $gamemode setting matches 1 run function game:mechanics/player_check/ffa
-execute if score $gamemode setting matches 2 run function game:mechanics/player_check/testing
+execute if score $gamemode setting matches 0 run function game:player_check/teams
+execute if score $gamemode setting matches 1 run function game:player_check/ffa
+execute if score $gamemode setting matches 2 run function game:player_check/testing
 
 
 # Timer (if game is over the appointent time minutes then shrink the border)
@@ -23,8 +23,6 @@ execute as @a[gamemode=!spectator] run function game:mana/action_bar
 # Setup death & build limits
 execute as @a at @s if predicate game:build_limit run function game:build_limit
 execute as @a[gamemode=!spectator] at @s if predicate game:death run kill @s
-
-execute as @e[type=item] at @s if block ~ ~-1 ~ barrier run kill @s 
 
 execute as @e[type=item] if items entity @s contents carrot_on_a_stick run data modify entity @s owner set from entity @s Thrower
 execute as @e[type=item] if items entity @s contents carrot_on_a_stick run data merge entity @s {PickupDelay:0s}

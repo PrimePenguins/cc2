@@ -63,7 +63,7 @@ gamerule fire_damage false
 gamerule immediate_respawn true
 gamerule block_explosion_drop_decay false
 gamerule mob_explosion_drop_decay false
-gamerule send_command_feedback false
+#gamerule send_command_feedback false
 gamerule fire_spread_radius_around_player 0
 gamerule show_death_messages false
 gamerule max_block_modifications 2147483647
