@@ -6,6 +6,6 @@ scoreboard players operation @s previous.mana = @s mana
 scoreboard players operation @s mana -= $platform_cost mana.cost
 
 scoreboard players operation @s previous.mana -= @s mana
-playsound block.glass.place master @a
+execute at @s run playsound block.glass.place master @a ~ ~ ~
 execute if predicate wands:fall_check run return run function wands:menchanics/platform/fall
 execute as @s run return run function wands:menchanics/platform/up

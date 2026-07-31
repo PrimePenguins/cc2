@@ -15,7 +15,7 @@ scoreboard players operation #targetY pos -= #playerY pos
 scoreboard players operation #targetZ pos -= #playerZ pos
 
 # summon the projectile entity
-$summon fireball ^ ^0.5 ^2 {Tags:["projectile"],ExplosionPower:10,Fire:0b,Owner:$(UUID)}
+$summon fireball ^ ^0.5 ^0.5 {Tags:["projectile"],ExplosionPower:10,Fire:0b,Owner:$(UUID)}
 
 # apply motion to projectile
 execute store result entity @e[type=fireball,tag=projectile,limit=1] Motion[0] double 0.001 run scoreboard players get #targetX pos

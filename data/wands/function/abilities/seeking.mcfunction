@@ -2,6 +2,7 @@ execute if entity @s[team=playing] unless entity @a[distance=0.05..30,team=playi
 execute if entity @s[team=blue] unless entity @a[distance=0.05..30,team=red,gamemode=!spectator] run return run tellraw @s {"translate":"error.noplayers.text",color:"red"}
 execute if entity @s[team=red] unless entity @a[distance=0.05..30,team=blue,gamemode=!spectator] run return run tellraw @s {"translate":"error.noplayers.text",color:"red"}
 
+execute at @s run playsound entity.tnt.primed master @a ~ ~ ~
 scoreboard players operation @s previous.mana = @s mana
 scoreboard players operation @s mana -= $seeking_cost mana.cost
 

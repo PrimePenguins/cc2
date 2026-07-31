@@ -19,3 +19,6 @@ gamerule pvp false
 kill @e[tag=platform]
 
 bossbar set border visible false
+
+xp set @a 0 levels
+xp set @a 0 points
