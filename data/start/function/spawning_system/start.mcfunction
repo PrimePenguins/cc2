@@ -1,2 +1,2 @@
-scoreboard players set $spawn_amount main 40
+scoreboard players set $spawn_amount main 20
 function start:spawning_system/spawn

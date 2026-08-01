@@ -8,6 +8,4 @@ execute if score $map setting matches 1 run advancement grant @a[team=!] only cc
 execute if score $map setting matches 2 run advancement grant @a[team=!] only cc2:map/map_explorer winter_ffa
 execute if score $map setting matches 3 run advancement grant @a[team=!] only cc2:map/map_explorer desert_ffa
 
-
-function start:spawning_system/start
-execute as @a run tp @s @e[tag=spawn.point,limit=1,sort=random]
+say debug for map selection FFA

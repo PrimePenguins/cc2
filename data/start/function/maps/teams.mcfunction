@@ -10,3 +10,4 @@ execute if score $map setting matches 3 run advancement grant @a[team=!] only cc
 
 execute positioned -14 47 237 positioned over motion_blocking run tp @a[team=blue] ~ ~ ~
 execute positioned 16 47 237 positioned over motion_blocking run tp @a[team=red] ~ ~ ~
+say debug for map selection TEAMS
