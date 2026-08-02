@@ -8,6 +8,5 @@ execute if score $map setting matches 1 run advancement grant @a[team=!] only cc
 execute if score $map setting matches 2 run advancement grant @a[team=!] only cc2:map/map_explorer winter_teams
 execute if score $map setting matches 3 run advancement grant @a[team=!] only cc2:map/map_explorer desert_teams
 
-execute positioned -14 47 237 positioned over motion_blocking run tp @a[team=blue] ~ ~ ~
-execute positioned 16 47 237 positioned over motion_blocking run tp @a[team=red] ~ ~ ~
-say debug for map selection TEAMS
+execute positioned -13 53 237 align xyz positioned ~0.5 ~ ~0.5 positioned over motion_blocking run tp @a[team=blue] ~ ~ ~
+execute positioned 17 53 237 align xyz positioned ~0.5 ~ ~0.5 positioned over motion_blocking run tp @a[team=red] ~ ~ ~

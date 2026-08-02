@@ -7,5 +7,3 @@ execute if score $map setting matches 0 run advancement grant @a[team=!] only cc
 execute if score $map setting matches 1 run advancement grant @a[team=!] only cc2:map/map_explorer classic_ffa
 execute if score $map setting matches 2 run advancement grant @a[team=!] only cc2:map/map_explorer winter_ffa
 execute if score $map setting matches 3 run advancement grant @a[team=!] only cc2:map/map_explorer desert_ffa
-
-say debug for map selection FFA

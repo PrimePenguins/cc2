@@ -2,7 +2,7 @@
 
 execute unless items entity @s enderchest.11 white_dye run function enderchest:selection/hats/none
 execute unless items entity @s enderchest.12 white_dye run function enderchest:selection/hats/wizard_hat
-execute unless items entity @s[advancements={cc2:wands/no_movement=true}] enderchest.13 white_dye run function enderchest:selection/hats/rocket
+execute unless items entity @s[advancements={cc2:wands/to_the_skies=true}] enderchest.13 white_dye run function enderchest:selection/hats/rocket
 execute unless items entity @s[advancements={cc2:game/win=true}] enderchest.14 white_dye run function enderchest:selection/hats/crown
 
 
@@ -13,8 +13,8 @@ item replace entity @s enderchest.22 with white_dye[item_model="cc2:gui/back",cu
 
 item replace entity @s enderchest.11 with white_dye[item_model="minecraft:barrier",custom_name={"translate":"enderchest.hats.none",color:"red"},lore=[{"translate":"enderchest.hats.none.desc",color:"red"}]]
 item replace entity @s enderchest.12 with white_dye[item_model="cc2:hats/wizard",custom_name={"translate":"enderchest.hats.wizard",color:"#a132cd"},lore=[{"translate":"enderchest.hats.wizard.desc",color:"#a132cd"}]]
-item replace entity @s[advancements={cc2:wands/no_movement=false}] enderchest.13 with white_dye[item_model="cc2:hats/rocket",custom_model_data={strings:["unavaible"]},custom_name={"translate":"enderchest.hats.rocket",color:"#ff0000"},lore=[{"translate":"enderchest.hats.rocket.desc",color:"#ff0000"},{"translate":"enderchest.hats.unavaiable",color:"gray",with:[{translate:"advancement.nomovement.name",color:"red"}]}]]
-item replace entity @s[advancements={cc2:wands/no_movement=true}] enderchest.13 with white_dye[item_model="cc2:hats/rocket",custom_name={"translate":"enderchest.hats.rocket",color:"#ff0000"},lore=[{"translate":"enderchest.hats.rocket.desc",color:"#ff0000"},{"translate":"enderchest.hats.avaiable",color:"green"}]]
+item replace entity @s[advancements={cc2:wands/to_the_skies=false}] enderchest.13 with white_dye[item_model="cc2:hats/rocket",custom_model_data={strings:["unavaible"]},custom_name={"translate":"enderchest.hats.rocket",color:"#ff0000"},lore=[{"translate":"enderchest.hats.rocket.desc",color:"#ff0000"},{"translate":"enderchest.hats.unavaiable",color:"gray",with:[{translate:"advancement.height.name",color:"red"}]}]]
+item replace entity @s[advancements={cc2:wands/to_the_skies=true}] enderchest.13 with white_dye[item_model="cc2:hats/rocket",custom_name={"translate":"enderchest.hats.rocket",color:"#ff0000"},lore=[{"translate":"enderchest.hats.rocket.desc",color:"#ff0000"},{"translate":"enderchest.hats.avaiable",color:"green"}]]
 item replace entity @s[advancements={cc2:game/win=false}] enderchest.14 with white_dye[item_model="cc2:hats/crown",custom_model_data={strings:["unavaible"]},custom_name={"translate":"enderchest.hats.crown",color:"#ffd700"},lore=[{"translate":"enderchest.hats.crown.desc",color:"#ffd700"},{"translate":"enderchest.hats.unavaiable",color:"gray",with:[{translate:"advancement.win.name",color:"green"}]}]]
 item replace entity @s[advancements={cc2:game/win=true}] enderchest.14 with white_dye[item_model="cc2:hats/crown",custom_name={"translate":"enderchest.hats.crown",color:"#ffd700"},lore=[{"translate":"enderchest.hats.crown.desc",color:"#ffd700"},{"translate":"enderchest.hats.avaiable",color:"green"}]]
 
