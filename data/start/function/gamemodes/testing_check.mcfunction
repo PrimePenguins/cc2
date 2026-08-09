@@ -9,4 +9,3 @@ function start:maps/ffa
 
 tp @a 1 135 237
 function start:gamemodes/main
-say Started TESTING
