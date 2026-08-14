@@ -4,7 +4,7 @@ tp @a -6 58 93
 
 spawnpoint @a -6 58 93
 gamemode adventure @a
-team leave @a
+execute unless score $gamemode setting matches 2 run team leave @a
 scoreboard players set $timer main 0
 scoreboard players set $event_timer main 0
 function game:reset_game

@@ -5,6 +5,7 @@ execute if score $map setting matches 0 run advancement grant @a[team=playing,ga
 execute if score $map setting matches 1 run advancement grant @a[team=playing,gamemode=survival] only cc2:map/win_all_maps classic_ffa_wins
 execute if score $map setting matches 2 run advancement grant @a[team=playing,gamemode=survival] only cc2:map/win_all_maps winter_ffa_wins
 execute if score $map setting matches 3 run advancement grant @a[team=playing,gamemode=survival] only cc2:map/win_all_maps desert_ffa_wins
+execute if score $map setting matches 4 run advancement grant @a[team=playing,gamemode=survival] only cc2:map/win_all_maps mineshaft_ffa_wins
 
 function game:end/main
 

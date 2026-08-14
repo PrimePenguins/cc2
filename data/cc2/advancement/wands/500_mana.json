@@ -1,0 +1,22 @@
+{
+    "display": {
+        "frame": "goal",
+        "icon": {
+            "id": "minecraft:lapis_lazuli"
+        },
+        "title": {
+            "translate": "advancement.500mana.name",
+            "color": "#33a191"
+        },
+        "description": {
+            "translate": "advancement.500mana.desc",
+            "color": "#33a191"
+        } 
+    },
+    "criteria": {
+        "500mana": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "cc2:wands/wand_all"
+}

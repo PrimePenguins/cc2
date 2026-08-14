@@ -59,6 +59,19 @@
         ]
       }
     },
+        "fireball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "carrot_on_a_stick",
+            "components": {
+              "item_model": "cc2:wands/fireball"
+            }
+          }
+        ]
+      }
+    },
     "rocket": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -98,14 +111,14 @@
         ]
       }
     },
-    "fireball": {
+    "jump": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": "carrot_on_a_stick",
             "components": {
-              "item_model": "cc2:wands/fireball"
+              "item_model": "cc2:wands/jump"
             }
           }
         ]
@@ -133,6 +146,9 @@
     ],
     [
       "fireball"
+    ],
+    [
+      "jump"
     ]
   ]
 }

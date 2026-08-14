@@ -19,7 +19,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "cc2:wands/wand_all",
+  "parent": "cc2:wands/500_mana",
   
   "criteria": {
     "no_explosion": {

@@ -2,6 +2,8 @@ execute as @a[predicate=game:lobby_death] at @s run tp -6 58 93
 kill @e[type=#main:kill_in_lobby]
 execute as @a run function enderchest:main
 
+
+execute as @a[tag=!build] at @s if predicate main:game_zone run tag @s remove login
 execute if block -20 61 95 polished_blackstone_button[powered=true] run return run function start:main
 
 execute as @a[tag=!build] run function main:lobby/items/main
@@ -19,3 +21,8 @@ function setting:main
 execute as @e[tag=particle.lobby] at @s run particle dust_color_transition{from_color:8930185,to_color:16329213,scale:1} ~ ~ ~ 1 1 1 20 10 force @a
 execute as @e[tag=particle.lobby2] at @s run particle dust_color_transition{from_color:8930185,to_color:16329213,scale:1} ~ ~ ~ 1.5 1.5 1.5 20 10 force @a
 execute as @e[tag=particle.lobby3] at @s run particle dust_color_transition{from_color:8930185,to_color:16329213,scale:1} ~ ~ ~ 2 0.7 2 15 15 force @a
+
+# teleport systems
+
+function main:lobby/teleport_system
+execute as @a at @s if block ~ ~-0.5 ~ light_blue_concrete run effect give @s minecraft:jump_boost 3 10

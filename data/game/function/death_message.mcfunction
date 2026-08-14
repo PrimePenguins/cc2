@@ -1,1 +1,1 @@
-$tellraw @a {'translate':"death.message$(num)","color":"gray",with:[{selector:"@s"}]}
+$tellraw @a [{"text":"💀 ",color:"#ff2a2a"},{'translate':"death.message$(num)","color":"#474736",with:[{selector:"@s"}]}]

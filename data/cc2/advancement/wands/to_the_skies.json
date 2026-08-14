@@ -28,6 +28,11 @@
                                 "min": 200
                             }
                         }
+                    },
+                    "type_specific/player": {
+                        "gamemode": [
+                            "survival"
+                        ]
                     }
                 }
             }

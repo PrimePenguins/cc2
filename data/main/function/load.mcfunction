@@ -67,3 +67,5 @@ gamerule mob_explosion_drop_decay false
 gamerule fire_spread_radius_around_player 0
 gamerule show_death_messages false
 gamerule max_block_modifications 2147483647
+
+function player_motion:internal/technical/load

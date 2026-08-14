@@ -42,6 +42,12 @@
     },
     "desert_ffa": {
       "trigger": "minecraft:impossible"
+    },
+    "mineshaft_teams": {
+      "trigger": "minecraft:impossible"
+    },
+    "mineshaft_ffa": {
+      "trigger": "minecraft:impossible"
     }
   },
   "requirements": [
