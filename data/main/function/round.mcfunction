@@ -32,4 +32,4 @@ execute as @e[tag=platform] at @s run function wands:menchanics/platform/stages
 execute as @a run function game:achivements/main
 
 # Spetatce System
-execute as @a[gamemode=spectator] at @s unless predicate mains:game_zone run tp @s -1 60 237
+execute as @a[gamemode=spectator] at @s unless predicate main:game_zone run tp @s -1 60 237
