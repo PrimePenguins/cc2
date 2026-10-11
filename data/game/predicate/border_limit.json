@@ -1,5 +1,4 @@
 {
-  "condition": "minecraft:location_check",
   "predicate": {
     "position": {
       "x": {
@@ -11,5 +10,6 @@
         "max": 242
       }
     }
-  }
+  },
+  "type": "minecraft:location_check"
 }

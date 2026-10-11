@@ -6,7 +6,7 @@ execute if score $gamemode setting matches 2 run function game:player_check/test
 # Timer (if game is over the appointent time minutes then shrink the border)
 execute unless score $border_timer setting matches ..0 run scoreboard players add $timer main 1
 execute store result bossbar border value run scoreboard players get $timer main
-execute if score $timer main = $border_timer setting run function game:border_shrink
+execute if score $border_timer setting matches 1.. if score $timer main = $border_timer setting run function game:border_shrink
 
 # System for events
 execute if score $event_timer setting matches 1.. run function game:events/main

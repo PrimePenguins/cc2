@@ -4,7 +4,8 @@ execute as @a run function enderchest:main
 
 
 execute as @a[tag=!build] at @s if predicate main:game_zone run tag @s remove login
-execute if block -20 61 95 polished_blackstone_button[powered=true] run return run function start:main
+
+execute as @e[tag=start.interact] on target run function start:countdowns/start_check
 
 execute as @a[tag=!build] run function main:lobby/items/main
 gamemode adventure @a[tag=!build,gamemode=spectator]
@@ -26,3 +27,5 @@ execute as @e[tag=particle.lobby3] at @s run particle dust_color_transition{from
 
 function main:lobby/teleport_system
 execute as @a at @s if block ~ ~-0.5 ~ light_blue_concrete run effect give @s minecraft:jump_boost 3 10
+
+execute as @e[type=interaction] run data remove entity @s interaction

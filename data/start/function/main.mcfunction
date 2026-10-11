@@ -1,6 +1,5 @@
 # Check the system and get the function
 
-setblock -20 61 95 minecraft:polished_blackstone_button[powered=false,facing=east]
 
 advancement revoke @a only game:used_explosive
 advancement revoke @a only game:used_movement

@@ -74,6 +74,12 @@
     ],
     [
         "desert_teams_wins"
+    ],
+    [
+      "mineshaft_ffa_wins"
+    ],
+    [
+      "mineshaft_teams_wins"
     ]
   ]
 }    

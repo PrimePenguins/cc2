@@ -5,3 +5,4 @@ tellraw @a {"translate":"event.over",color:"red"}
 function game:reset_game
 scoreboard players set $mana_add setting 20
 scoreboard players set $event main 0
+execute as @a at @s run playsound minecraft:entity.villager.death

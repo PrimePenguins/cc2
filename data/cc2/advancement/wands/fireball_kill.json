@@ -19,13 +19,15 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "game:damage_fireball": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "game:damage_fireball": true
+              }
             }
           }
-        },
-        "entity": {
         }
       }
     }

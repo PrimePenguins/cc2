@@ -2,8 +2,10 @@ kill @e[type=item]
 
 execute as @a run attribute @s attack_knockback base set 3
 gamerule pvp true
-function wands:give/main
 scoreboard players set $inRound main 1
+clear @a
+function wands:give/main
+
 
 worldborder set 75
 scoreboard players operation @a mana = $max_mana setting

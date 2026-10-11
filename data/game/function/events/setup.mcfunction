@@ -1,4 +1,6 @@
 # Setup for events
+
+execute as @a at @s run playsound entity.experience_orb.pickup
 scoreboard players set $event_timer main 0
 execute store result score $event main run random value 1..6
 

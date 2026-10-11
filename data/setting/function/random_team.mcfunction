@@ -1,4 +1,4 @@
-execute if score $gamemode setting matches 1 run return run title @s actionbar {"color":"red","text":"You are on the FFA gamemode"}
+execute if score $gamemode setting matches 1 run return run tellraw @s {"color":"red","translate":"error.is_ffa.gamemode"}
 execute as @r[team=] run function main:lobby/team_join/blue_team
 execute as @r[team=] run function main:lobby/team_join/red_team
 

@@ -18,32 +18,48 @@
   "parent": "cc2:kill/first_blood",
   "criteria": {
     "blue": {
-         "trigger": "minecraft:player_killed_entity",
-         "conditions": {
-          "player": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
             "minecraft:team": "blue"
-          },
-          "entity": {
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
             "minecraft:team": "blue"
-          } 
-         } 
-      },
-      "red": {
-        "trigger": "minecraft:player_killed_entity",
-        "conditions": {
-          "player": {
-            "minecraft:team": "red"
-          },
-          "entity": {
-            "minecraft:team": "red"
           }
         }
       }
     },
-    "requirements": [
-      [
-        "blue",
-        "red"
-      ]
+    "red": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:team": "red"
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:team": "red"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "blue",
+      "red"
     ]
-  }
+  ]
+}

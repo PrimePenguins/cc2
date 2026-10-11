@@ -50,7 +50,7 @@ bossbar set border value 0
 
 
 # Forceloading Maps / Map Section
-forceload add 9960 279 10088 -58
+forceload add 9963 275 10088 -144
 forceload add 39 199 -37 275
 
 # Gamerules
