@@ -1,6 +1,6 @@
-execute if entity @s[team=playing] unless entity @a[distance=0.05..20,team=playing,gamemode=!spectator] run return run tellraw @s {"translate":"error.noplayers.text",color:"red"}
-execute if entity @s[team=blue] unless entity @a[distance=0.05..20,team=red,gamemode=!spectator] run return run tellraw @s {"translate":"error.noplayers.text",color:"red"}
-execute if entity @s[team=red] unless entity @a[distance=0.05..20,team=blue,gamemode=!spectator] run return run tellraw @s {"translate":"error.noplayers.text",color:"red"}
+execute if entity @s[team=playing] unless entity @a[distance=0.05..20,team=playing,gamemode=!spectator] run return run tellraw @s {"translate":"error.noplayers.text",color:"#f52b2b"}
+execute if entity @s[team=blue] unless entity @a[distance=0.05..20,team=red,gamemode=!spectator] run return run tellraw @s {"translate":"error.noplayers.text",color:"#f52b2b"}
+execute if entity @s[team=red] unless entity @a[distance=0.05..20,team=blue,gamemode=!spectator] run return run tellraw @s {"translate":"error.noplayers.text",color:"#f52b2b"}
 
 execute at @s run playsound entity.tnt.primed master @a ~ ~ ~
 scoreboard players operation @s previous.mana = @s mana

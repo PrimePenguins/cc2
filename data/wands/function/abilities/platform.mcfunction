@@ -1,6 +1,6 @@
-execute unless predicate wands:fall_check positioned ~ ~5 ~ if predicate game:build_limit run return run return run tellraw @s {"translate":"error.buildheight.text",color:"red"}
+execute unless predicate wands:fall_check positioned ~ ~5 ~ if predicate game:build_limit run return run return run tellraw @s {"translate":"error.buildheight.text",color:"#f52b2b"}
 
-execute if predicate game:build_limit run return run tellraw @s {"translate":"error.buildheight.text",color:"red"}
+execute if predicate game:build_limit run return run tellraw @s {"translate":"error.buildheight.text",color:"#f52b2b"}
 advancement grant @s only game:used_movement
 scoreboard players operation @s previous.mana = @s mana
 scoreboard players operation @s mana -= $platform_cost mana.cost

@@ -1,4 +1,4 @@
-tellraw @a {"translate":"win.text",with:[{selector:"@a[team=playing,gamemode=survival]"}],color:"gold"}
+tellraw @a {"translate":"win.text",with:[{selector:"@a[team=playing,gamemode=survival]"}],color:"#ff9f4b"}
 advancement grant @a[team=playing,gamemode=survival] only cc2:game/win
 
 execute if score $map setting matches 0 run advancement grant @a[team=playing,gamemode=survival] only cc2:map/win_all_maps nether_ffa_wins
