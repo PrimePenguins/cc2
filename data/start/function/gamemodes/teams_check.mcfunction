@@ -6,7 +6,6 @@ execute as @a unless score @s slot.2 matches 0.. run scoreboard players set @s s
 
 fill -36 100 274 38 35 200 air replace
 
-say teams check!
 # Map Selection
 function start:maps/teams
 
